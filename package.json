@@ -1,0 +1,17 @@
+{
+  "name": "04-tareas-hacer",
+  "version": "1.0.0",
+  "description": "This is a CLI that helps you managing your tasks. You can create a new task, wich is going to be saved in the 'src/db' folder, delete a task, list all tasks, and update the state of a given task.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "Ramiro Cabrera",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.2.0",
+    "uuid": "^8.3.2"
+  }
+}
